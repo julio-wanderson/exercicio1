@@ -1,3 +1,23 @@
+
 h1{
-    color: black;
+    text-align: center;                           /**centralizar*/ 
+    color: black;                             /**cor da fonte*/
+    margin: 0auto;                                  /**margem*/
+    border: 5px solid black;                     /**borda*/
+    width: 600px                                   /**largura da borda*/
+}
+
+body{
+background-color: darkgrey;                     /**cor de fundo*/
+}
+
+#formulario{
+    text-align: center;                         /**centralizar*/ 
+    background-color: white;                    /**cor de fundo*/
+    border: 5px solid black;                     /**borda*/
+    width: 400px;                                  /**largura*/
+    line-height: 2.0;                           /**altura da linha*/
+    padding: 25px;                              /**Tamanho do quadro*/
+    width: 550px                                  /**largura da borda*/
+    
 }
