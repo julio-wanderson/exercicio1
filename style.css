@@ -1,6 +1,8 @@
 
 h1{
-    text-align: center;                           /**centralizar*/ 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;                           /**centralizar texto*/ 
     color: black;                             /**cor da fonte*/
     margin: 0auto;                                  /**margem*/
     border: 5px solid black;                     /**borda*/
@@ -8,11 +10,13 @@ h1{
 }
 
 body{
-background-color: darkgrey;                     /**cor de fundo*/
+    background-color: darkgrey;                     /**cor de fundo*/
 }
 
 #formulario{
-    text-align: center;                         /**centralizar*/ 
+    margin-left: auto;                          /** margem esquerda*/
+    margin-right: auto;                            /**margenm direita*/
+    text-align: center;                         /**centralizar texto*/ 
     background-color: white;                    /**cor de fundo*/
     border: 5px solid black;                     /**borda*/
     width: 400px;                                  /**largura*/
@@ -20,4 +24,14 @@ background-color: darkgrey;                     /**cor de fundo*/
     padding: 25px;                              /**Tamanho do quadro*/
     width: 550px                                  /**largura da borda*/
     
+}
+
+label {
+    display: inline-block;
+    width: 100px;                               /**largura da borda*/           
+    text-align: right;                          /**alinhamento de texto*/
+
+}
+textarea{
+    vertical-align: top;
 }
