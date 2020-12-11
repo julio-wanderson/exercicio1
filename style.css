@@ -23,7 +23,7 @@ body{
     line-height: 2.0;                           /**altura da linha*/
     padding: 25px;                              /**Tamanho do quadro*/
     width: 550px;                                   /**largura da borda*/
-    
+ 
 }
 
 label {
@@ -31,26 +31,24 @@ label {
     width: 100px;                               /**largura da borda*/           
     text-align: right;                          /**alinhamento de texto*/
 }
+
 textarea{
     vertical-align: top;
 }
+
 input {
     font: 18px sans-serif;                         /**tamanho do quadrado do campo de preenchimento*/
     width: 300px;
     box-sizing: border-box;
-    border: 2px solid rgb(153, 153, 153);                     /**cor da borda do campo de preenchimento*/
-    
+    border: 2px solid rgb(153, 153, 153);                     /**cor da borda do campo de preenchimento*/   
 }
+
 #bt{
     padding: 15px 177px;                        /**centralizando o botão de envio*/
-    
 }
+
 #bt1{ 
 color: white;
 border: 0pt seagreen ;
 background-color:seagreen;
-
-
-
-
 }
